@@ -1,0 +1,31 @@
+#card {
+    height: 100%;
+}
+
+#cardBody {
+    flex-direction: column;
+    display: flex;
+}
+
+#cardTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1.5rem;
+}
+
+#cardButtonContainer {
+    margin-top: auto;
+}
+
+#cardButtonContainer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin-bottom:10px;
+}
+
+.store-item-image {
+    object-fit: cover;
+}
